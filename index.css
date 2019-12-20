@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+*{
+    background: #C5E0E6;
+}
+
+header{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+}
+
+#cuadricula{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12, #box13, #box14, #box15, #box16, #box17, #box18, #box19, #box19, #box20, #box21, #box22, #box23, #box24{
+    padding: 10px;
+    border: 3px solid black;
+    color: black;
+    background-color: #DCC7FF;
+}
+
+
+
+.jugar{
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: black;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+/*
+.jugar:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+*/
